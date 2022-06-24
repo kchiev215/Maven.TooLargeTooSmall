@@ -18,6 +18,7 @@ public class Main {
                 System.out.println("Too high. Try again");
             } else if (guess == number) {
                 System.out.println("Ding ding ding. Congratulations");
+                break;
             }
             }
         }
